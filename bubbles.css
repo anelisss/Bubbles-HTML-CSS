@@ -1,0 +1,138 @@
+* {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: cadetblue;
+}
+.bubbles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.bubble1 {
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    background: cornsilk;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: animate 10s infinite ease-in;
+}
+.bubble2 {
+    position: absolute;
+    bottom: 0;
+    right: 10em;
+    width: 30px;
+    height: 30px;
+    background: cornsilk;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: animate 7s infinite ease-in;
+}
+.bubble3 {
+    position: absolute;
+    bottom: 0;
+    left: 10em;
+    width: 20px;
+    height: 20px;
+    background: cornsilk;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: animate 12s infinite ease-in;
+}
+.bubble4 {
+    position: absolute;
+    bottom: 0;
+    left: 20em;
+    width: 50px;
+    height: 50px;
+    background: cornsilk;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: animate 5s infinite ease-in;
+}
+.bubble5 {
+    position: absolute;
+    bottom: 0;
+    right: 30em;
+    width: 10px;
+    height: 10px;
+    background: cornsilk;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: animate 6s infinite ease-in;
+}
+.bubble6 {
+    position: absolute;
+    bottom: 0;
+    left: 60em;
+    width: 23px;
+    height: 23px;
+    background: cornsilk;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: animate 14s infinite ease-in;
+}
+.bubble7 {
+    position: absolute;
+    bottom: 0;
+    left: 78em;
+    width: 14px;
+    height: 14px;
+    background:cornsilk;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: animate 16s infinite ease-in;
+}
+.bubble8 {
+    position: absolute;
+    bottom: 0;
+    left: 45em;
+    width: 35px;
+    height: 35px;
+    background: cornsilk;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: animate 8s infinite ease-in;
+}
+.bubble9 {
+    position: absolute;
+    bottom: 0;
+    left: 68em;
+    width: 41px;
+    height: 41px;
+    background: cornsilk;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: animate 5s infinite ease-in;
+}
+.bubble10 {
+    position: absolute;
+    bottom: 0;
+    left: 21em;
+    width: 26px;
+    height: 26px;
+    background: cornsilk;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: animate 11s infinite ease-in;
+}
+@keyframes animate {
+    0% {
+        bottom: -100px;
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        bottom: 1080px;
+        transform: translateX(-200px);
+    }
+}
